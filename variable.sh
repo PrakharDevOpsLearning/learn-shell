@@ -6,6 +6,7 @@ fi
 if [ "$1" = "prakhar" ]; then
 echo "$1"
 else
+echo wrong password
 exit 1
 fi
 
