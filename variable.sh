@@ -1,3 +1,7 @@
+if $1 eq ' '
+echo enter atleast one parameter
+exit 1
+
 echo value of 0 - $0
 echo value of 1 - $1
 echo value of 2 - $2
