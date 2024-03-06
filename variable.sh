@@ -4,7 +4,7 @@ else
 exit 1
 fi
 
-if [ $1 -eq prakhar ]; then
+if [ "$1" = "prakhar" ]; then
 echo $1
 else
 exit 1
