@@ -1,6 +1,7 @@
-if $1 eq ' '
+if $# eq 0; then
 echo enter atleast one parameter
 exit 1
+fi
 
 echo value of 0 - $0
 echo value of 1 - $1
