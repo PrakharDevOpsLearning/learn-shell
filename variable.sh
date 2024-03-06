@@ -1,8 +1,8 @@
 return_status() {
    if [ $1 -eq 0 ]; then
      echo -e "\e[32mSUCCESS\e[0m"
+   fi
 }
-
 
 if [ $# -eq 0 ]; then
 echo enter atleast one parameter
