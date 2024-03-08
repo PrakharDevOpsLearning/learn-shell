@@ -9,6 +9,7 @@ echo enter atleast one parameter
 exit 1
 fi
 
+
 if [ "$1" = "prakhar" ]; then
 echo "$1"
 else
