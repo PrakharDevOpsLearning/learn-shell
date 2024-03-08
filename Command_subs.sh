@@ -1,3 +1,2 @@
 x=$(uptime)
-
-echo x
+echo $x
